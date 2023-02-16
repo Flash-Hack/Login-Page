@@ -1,0 +1,688 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    color: #000;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left_pane {
+    padding: 12%;
+    width: 100%;
+    overflow-y: auto;
+}
+.omni_div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.omni_div div {
+    flex-basis: 100%;
+    height: 100%;
+}
+.right_pane {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.LP_carrier {
+    height: 100%;
+    width: 100%;
+}
+.LP_carrier section {
+    width: 100%;
+}
+.logo_png {
+    height: auto;
+}
+.Login {
+    width: 100%;
+}
+input {
+    width: 100%;
+}
+form {
+    width: 100%;
+}
+.Login {
+    width: 100%;
+}
+.section1 {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 150%;        
+}
+.section2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+@media only screen and (min-width: 500px) {
+    /* desktop view */
+
+    img {
+        width: 25px;
+    }
+    .h2 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 15px;
+    }
+    input {
+        font-size: 15px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 100px) {
+    /* desktop view */
+
+    img {
+        width: 25px;
+    }
+    .h2 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 15px;
+    }
+    input {
+        font-size: 15px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 50px) {
+    /* desktop view */
+
+    img {
+        width: 25px;
+    }
+    .h2 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 15px;
+    }
+    input {
+        font-size: 15px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 30px) {
+    /* desktop view */
+
+    img {
+        width: 20px;
+    }
+    .h2 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 16px;
+    }
+    input {
+        font-size: 16px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 20px) {
+    /* desktop view */
+
+    img {
+        width: 20px;
+    }
+    .h2 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 16px;
+    }
+    input {
+        font-size: 16px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 10px) {
+    /* desktop view */
+
+    img {
+        width: 20px;
+    }
+    .h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    input {
+        font-size: 15px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 8px) {
+    /* desktop view */
+
+    img {
+        width: 18px;
+    }
+    .h2 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 14px;
+    }
+    input {
+        font-size: 14px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 7px) {
+    /* desktop view */
+
+    img {
+        width: 18px;
+    }
+    .h2 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 13px;
+    }
+    input {
+        font-size: 13px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 6px) {
+    /* desktop view */
+
+    img {
+        width: 18px;
+    }
+    .h2 {
+        font-size: 13px;
+    }
+    p {
+        font-size: 12px;
+    }
+    input {
+        font-size: 12px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 5px) {
+    /* desktop view */
+
+    img {
+        width: 18px;
+    }
+    .h2 {
+        font-size: 13px;
+    }
+    p {
+        font-size: 12px;
+    }
+    input {
+        font-size: 12px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+}
+@media only screen and (min-width: 4px) {
+    /* desktop view */
+    .right_pane {
+        display: none;
+    }
+    img {
+        width: 16px;
+    }
+    .h2 {
+        font-size: 13px;
+    }
+    p {
+        font-size: 11px;
+    }
+    input {
+        font-size: 11px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+    .left_pane {
+        padding-top: 30%;
+        
+    }
+    
+}
+@media only screen and (min-width: 650px) {
+    /* desktop view */
+    .h2 {
+        font-size: 12px;
+    } 
+    p {
+        font-size: 11px;
+    }
+    input {
+        font-size: 11px;
+    }
+    .Login {
+        width: 72%;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+    .left_pane {
+        padding-top: 18%;
+    }
+}
+@media only screen and (min-width: 700px) {
+    /* desktop view */
+    .h2 {
+        font-size: 13px;
+    } 
+    p {
+        font-size: 12px;
+    }
+    input {
+        font-size: 12px;
+    }
+    img {
+        width: 25px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+    .left_pane {
+        padding-top: 14%;
+        padding-bottom: 20%;
+    }
+    
+}
+@media only screen and (min-width: 710px) {
+    /* desktop view */
+    .right_pane {
+        display: flex;
+    }
+    img {
+        width: 25px;
+    }
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+    .left_pane {
+        padding-top: 40%;
+    }
+    h2 {
+        font-size: 14px;
+    } 
+    p {
+        font-size: 12px;
+    }
+    input {
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .left_pane {
+        padding: 10%;
+        padding-top: 40%;
+    }
+    .h2 {
+        font-size: 17px;
+    } 
+    p {
+        font-size: 15px;
+    }
+    input {
+        font-size: 15px;
+    }
+    img {
+        width: 28px;
+    }
+}
+@media only screen and (min-width: 970px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width:  100%;
+    }
+    .left_pane {
+        padding-top: 7%;
+    }
+}
+@media only screen and (min-width: 980px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+    .left_pane {
+        padding-top: 7%;
+    }
+}
+@media only screen and (min-width: 990px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1007px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1010px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+    .left_pane {
+        padding-top: 7% !important;
+    }
+}
+@media only screen and (min-width: 1020px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+    .left_pane {
+        padding-top: 7%;
+    }
+}
+@media only screen and (min-width: 1030px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1040px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1050px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1060px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+    .left_pane {
+        padding-top: 5% !important;
+    }
+}
+@media only screen and (min-width: 1070px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1080px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1090px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1120px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1130px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1140px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1150px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1160px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1170px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1180px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1190px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1210px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1220px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1230px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1240px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1250px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1260px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1270px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1290px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1320px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1340px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1350px) {
+    /* desktop view */
+    .sec1, .Login, .section5 div {
+        width: 100%;
+    }
+}
+
+
+.section3 {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 120%;   
+    align-items: center;
+}
+input {
+    padding: 3%;
+    width: 100%;
+    margin-bottom: 6%;
+    border: 1px solid lightgray;
+}
+.Login {
+    color: whitesmoke;
+    height: 100%;
+    background-color: #111727;
+    padding: 2%;
+    border: 1px solid #111727;
+    border-radius: 5px;
+}
+.Login:hover {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.Login:active {
+    color: wheat;
+    background-color: #051121;
+}
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    overflow: hidden;        
+}
+.dash {
+    width: fit-content;
+    overflow: hidden;
+}
+.OK {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgray;
+}
+.dash hr {
+    width: 100%;
+    color: lightgray;
+}
+.section5 {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section5 div {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+.section5 div:hover {
+    border: 1px solid black;
+}
+.section5 div p {
+    margin-left: 3%;
+}
+.form1 input:hover {
+    border: 1px solid gray;
+}
+.section1, .section2, .section3, .section5 {
+    overflow: hidden;
+}
+p a {
+    text-decoration: underline;
+}
